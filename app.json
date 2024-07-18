@@ -1,6 +1,6 @@
 {
-  "name": "wasi-md-v2",
-  "description": "Simple WhatsApp Bot",
+  "name": "𝙍𝘼𝙇𝙋𝙃 𝘽𝙊𝙏 ®️",
+  "description": "I'm Ralph bot 🤖! Only available in groups 👥️ | Need assistance?",
   "logo": "https://github.com/Itxxwasi/WASI-MD-V2/blob/main/lib/assets/logo.png?raw=true",
   "keywords": ["WASI-MD-V2", "WASIV2", "WASI MD","WASI MD","wasi","wasitech"],
   "success_url": "/",
@@ -9,7 +9,7 @@
   "env": {
     "OWNER_NAME": {
       "description": "Name for Bot Owner",
-      "value": "𝐖𝐀𝐒𝐈-𝐓𝐄𝐂𝐇",
+      "value": "𝙍𝘼𝙇𝙋𝙃 𝘽𝙊𝙏 ®️",
       "required": true
     },
 
@@ -27,7 +27,7 @@
     "BOT_NAME": {
       "description": " NAME FOR BOT",
       "required": false,
-      "value": "𝐖𝐀𝐒𝐈-𝐌𝐃-𝐕2"
+      "value": "𝙍𝘼𝙇𝙋𝙃 𝘽𝙊𝙏 ®️"
     },
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
@@ -77,7 +77,7 @@
     "READ_MESSAGE": {
       "description": "Fill the value true if you want bot to read all messages.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "DISABLE_PM": {
       "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
@@ -90,19 +90,19 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": ""
+      "value": "2348109273709,2347041784362"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
-      "value": ""
+      "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieU9WTkJ2U3pWd084dGRwWG5kOHl5ZGVRWmh5SWk3cUhqWmt4dVg3Uk8xWT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT2phaURUUTkzZU4zRzZrZ3lwVXlYcGxxOFRGVDEvS2N1eXN2ck1KZVNIZz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlR1liV3E0SjUraUUzVXZ6bkFFelIzcGtTbDRuTVgwV2x1dithV2dsRkhFPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJjSk9yaEttS2t1MlpTd09qTmozZk1QZHo1YWpUbUxjWnRBVlZVNmJsbFJNPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZLUEcrYlFWZGh3SkUwcDZDZDFCanV2MUx2bGVua3VKMFZKdmxzWnBISGs9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjFKN2ozNUg1SWhweTg5ZlRPbmh4SXNOemFpbEVIbU1adFVqVFpvSHU2eWs9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUpaNC9kUmc2YnZTcXZiSFpURkgreVNldFVSSTE5WTRHSDIzQmZybWVFaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVjZTZmNMQnVDeGpFeVMrMXhTV3BnbmZpVE9KNTBJZFd5NUM0eVhlZElsYz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjVNYzd2OFBsS01UQkxreDJONjQ5UkJrc1dwVXUrR0YweGlIMzZZU0VDQXRZdlQ5VGE4VTZ3YkoySVpjNUZTMFV1UjFTQm1GQWR4WTBDbklIU1BRRWhnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MzYsImFkdlNlY3JldEtleSI6IkdmS0NXVCtaOEhUc3ZtMXRtVVhtbXFveTR1TG1xYS8vZmpJVVMvVFluK3c9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IjZrUHhmTndyU2UyNkplZGZFRk5fSVEiLCJwaG9uZUlkIjoiNGI5YWE5ZjQtMGQxNy00N2VmLWE4MjQtMGM1NGYxMjA3ODM4IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InlxeUFYeVZvL2Jhbnp2UWxTYldxNWh2TmNBVT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJaVWt4QWVrRjJJZnpwdURRemxVQzFJZmVmY0k9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiWUhaSEZKWDkiLCJtZSI6eyJpZCI6IjIzNDgxMDkyNzM3MDk6OUBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDS21nNCtVR0VMZSs1YlFHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiNTYyQlhoaDg5cFlMMEkrTGFtN1FzcTJ4VmhJLytWWGxpR0RFaFpLU3JVTT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiV0FuTXNHZ01QZnFMNDA4V05jQ3k5Z3RheG1aNlJ2UFRCMDVRWitwNGJieVgreW9lWjRLMzUrY1FZUzlOSU0xVkdYSld4RE1nZmc2WU93eGVrS2I4RFE9PSIsImRldmljZVNpZ25hdHVyZSI6ImpsSTh4TFFGaHdmZlJRRXdpTndJNWNsSnlrOVFLOFN3SEFJdXEwYStSY0VNMW5PNnk5REFQZENFRnh3RUVLWnlROVNlRFlXQ2hURGJQVFUwbS9mbGdnPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0ODEwOTI3MzcwOTo5QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmVldGdWNFlmUGFXQzlDUGkycHUwTEt0c1ZZU1AvbFY1WWhneElXU2txMUQifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjEzMjc0MjcsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBT2IwIn0="
     },
     "MODE": {
       "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-      "value": "private"
+      "value": "public"
     },
     "PACK_NAME": {
       "description": "Put Sticker Pack_Name.",
-      "value": "WASI",
+      "value": "𝙍𝘼𝙇𝙋𝙃 𝘽𝙊𝙏 ®️",
       "required": false
     },
     "PACK_AUTHER": {
